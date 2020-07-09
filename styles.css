@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #ff0931;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.34);
+}
+
+@media (max-width:750px) {
+    nav ul {
+        font-size: 16px !important;
+        width: 70% !important;
+    }
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 20px;
+    width: 50%;
+    list-style-type: none;
+}
+
+nav ul .nav-item .nav-link:hover {
+    background: #fff;
+    color: #000 !important;
+    padding: 11px;
+}
+
+.navbar .nav-item .nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*FRONT PAGE*/
+.front-page {
+    background: #f52b3b;
+    color: #fff;
+    text-align: center;
+    height: 500px;
+}
+
+.front-page h1 {
+    padding-top: 150px;
+    font-size: 50px;
+}
+
+.front-page p {
+    padding-top: 35px;
+    font-size: 18px;
+}
+
+.front-page button {
+    margin-top: 30px;
+    padding: 8px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.anchor {
+    display: flex;
+    padding: 100px 100px 0px 100px;
+}
+
+.anchor .text h3 {
+    font-size: 25px;
+}
+.anchor .text p {
+    padding-top: 30px;
+}
+
+.anchor .text {
+    width: 70%;
+}
+
+.anchor .icon {
+    width: 30%;
+    color: #ff0931;
+    text-align: center;
+    font-size: 175px;
+}
+
+.end .quote {
+    background: #6f6f6f;
+    padding: 70px;
+    margin-top: 120px;
+}
+
+.end .quote p {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.end .links {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.end .links a {
+    color: #6f6f6f;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    margin: 40px;
+}
+
+footer p, a {
+    color: #6f6f6f;
+}
