@@ -94,6 +94,20 @@ nav ul .nav-item .nav-link:hover {
     font-size: 175px;
 }
 
+@media (max-width: 950px) {
+    .anchor {
+        display: flex;
+        flex-direction: column;
+    }
+    .anchor .text {
+        width: 100%;
+    }
+    .anchor .icon {
+        width: 100%;
+        font-size: 120px;
+    }
+}
+
 .end .quote {
     background: #6f6f6f;
     padding: 70px;
